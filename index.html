@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Pro - Documentation</title>
+    <script src="variables.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        /* shadcn/ui inspired styles */
+        :root {
+            --background: 0 0% 100%;
+            --foreground: 222.2 84% 4.9%;
+            --card: 0 0% 100%;
+            --card-foreground: 222.2 84% 4.9%;
+            --border: 214.3 31.8% 91.4%;
+            --radius: 0.5rem;
+        }
+        
+        .card {
+            background: hsl(var(--card));
+            border: 1px solid hsl(var(--border));
+            border-radius: calc(var(--radius) * 1px);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 min-h-screen">
+    <div class="container mx-auto px-4 py-16 max-w-4xl">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-slate-900 mb-4">
+                <strong data-var="extensionName">PLACEHOLDER</strong>
+            </h1>
+            <p class="text-xl text-slate-600">
+                Chrome Extension Documentation
+            </p>
+        </header>
+
+        <!-- Navigation Links -->
+        <div class="card p-8 mb-8 shadow-lg">
+            <h2 class="text-2xl font-semibold text-slate-900 mb-6 text-center">
+                Extension Pages
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="install.html" class="group">
+                    <div class="p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-200">
+                        <div class="text-4xl mb-3 text-center group-hover:scale-110 transition-transform">🎉</div>
+                        <h3 class="font-semibold text-slate-900 mb-2 text-center">Installation</h3>
+                        <p class="text-sm text-slate-600 text-center">
+                            Welcome page shown when the extension is installed
+                        </p>
+                        <div class="mt-4 text-center">
+                            <span class="text-sm text-blue-600 font-medium group-hover:underline">View Page →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="uninstall.html" class="group">
+                    <div class="p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-200 hover:shadow-lg transition-all duration-200">
+                        <div class="text-4xl mb-3 text-center group-hover:scale-110 transition-transform">👋</div>
+                        <h3 class="font-semibold text-slate-900 mb-2 text-center">Uninstallation</h3>
+                        <p class="text-sm text-slate-600 text-center">
+                            Thank you page shown when the extension is removed
+                        </p>
+                        <div class="mt-4 text-center">
+                            <span class="text-sm text-orange-600 font-medium group-hover:underline">View Page →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="policy.html" class="group">
+                    <div class="p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-200">
+                        <div class="text-4xl mb-3 text-center group-hover:scale-110 transition-transform">🔒</div>
+                        <h3 class="font-semibold text-slate-900 mb-2 text-center">Privacy Policy</h3>
+                        <p class="text-sm text-slate-600 text-center">
+                            Our privacy policy and data handling practices
+                        </p>
+                        <div class="mt-4 text-center">
+                            <span class="text-sm text-green-600 font-medium group-hover:underline">View Page →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="help.html" class="group">
+                    <div class="p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-200">
+                        <div class="text-4xl mb-3 text-center group-hover:scale-110 transition-transform">❓</div>
+                        <h3 class="font-semibold text-slate-900 mb-2 text-center">Help & Support</h3>
+                        <p class="text-sm text-slate-600 text-center">
+                            Get help with using the extension and FAQs
+                        </p>
+                        <div class="mt-4 text-center">
+                            <span class="text-sm text-purple-600 font-medium group-hover:underline">View Page →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="feedback.html" class="group">
+                    <div class="p-6 bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg border border-pink-200 hover:shadow-lg transition-all duration-200">
+                        <div class="text-4xl mb-3 text-center group-hover:scale-110 transition-transform">💬</div>
+                        <h3 class="font-semibold text-slate-900 mb-2 text-center">Feedback</h3>
+                        <p class="text-sm text-slate-600 text-center">
+                            Share your feedback and suggestions with us
+                        </p>
+                        <div class="mt-4 text-center">
+                            <span class="text-sm text-pink-600 font-medium group-hover:underline">View Page →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-slate-500 text-sm">
+            <p>Built with ❤️ using shadcn/ui inspired design</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
