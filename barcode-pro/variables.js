@@ -3,7 +3,7 @@
  */
 const EXTENSION_VARIABLES = {
   name: 'Barcode Pro',
-  version: '1.0.5',
+  version: '1.0.6',
   googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSd63SPmjDKOZzU_GYejb-BqXuke-kgAwj0lzKFeL0KwUqGfEA/viewform?embedded=true'
 };
 
