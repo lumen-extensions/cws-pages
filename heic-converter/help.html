@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help - Barcode Pro</title>
+    <title>Help - HEIC Converter</title>
     <script src="variables.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -37,9 +37,9 @@
                 Help & Support
             </h1>
             <p class="text-xl text-slate-600 mb-6">
-                Get help with <strong class="font-semibold text-slate-900" data-var="extensionName">PLACEHOLDER</strong>
+                Get help with <strong class="font-semibold text-slate-900" data-var="extensionName">HEIC Converter</strong>
             </p>
-            <a href="feedback.html" class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-pink-500 to-pink-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-pink-600 hover:to-pink-700 transition-all duration-200 transform hover:scale-105">
+            <a href="feedback.html" class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
                 </svg>
@@ -49,35 +49,35 @@
 
         <!-- Main Card -->
         <div class="card p-8 mb-8 shadow-lg">
-            <!-- Supported Barcode Types -->
+            <!-- Supported Formats -->
             <div class="mb-12">
                 <h2 class="text-3xl font-semibold text-slate-900 mb-6">
-                    Supported Barcode Types
+                    Supported Formats
                 </h2>
                 <div class="grid md:grid-cols-2 gap-4">
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">QR Code</h3>
-                        <p class="text-sm text-slate-600">2D code for URLs, text, and data. Supports error correction levels.</p>
+                        <h3 class="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                            <span>📄</span> PDF
+                        </h3>
+                        <p class="text-sm text-slate-600">Perfect for documents, portfolios, and printing. Customizable orientation, size, and margins.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">EAN-13 / UPC-A</h3>
-                        <p class="text-sm text-slate-600">Retail product codes. EAN-13: 13 digits, UPC-A: 12 digits.</p>
+                        <h3 class="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                            <span>🖼️</span> JPG
+                        </h3>
+                        <p class="text-sm text-slate-600">Universal image format. Best for photos, social media, and maximum compatibility.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">EAN-8 / UPC-E</h3>
-                        <p class="text-sm text-slate-600">Compact product codes. EAN-8: 8 digits, UPC-E: 6 digits.</p>
+                        <h3 class="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                            <span>📷</span> PNG
+                        </h3>
+                        <p class="text-sm text-slate-600">Lossless format with transparency support. Ideal for screenshots and graphics.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">Code 128</h3>
-                        <p class="text-sm text-slate-600">Full ASCII support for alphanumeric data.</p>
-                    </div>
-                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">Code 39</h3>
-                        <p class="text-sm text-slate-600">Alphanumeric code for industrial use.</p>
-                    </div>
-                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <h3 class="font-semibold text-slate-900 mb-2">Data Matrix</h3>
-                        <p class="text-sm text-slate-600">Compact 2D code for small items and labels.</p>
+                        <h3 class="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                            <span>🌐</span> WEBP
+                        </h3>
+                        <p class="text-sm text-slate-600">Modern web format with superior compression. Smaller file sizes while maintaining quality.</p>
                     </div>
                 </div>
             </div>
@@ -94,9 +94,9 @@
                                 <span class="text-lg font-bold text-slate-700">1</span>
                             </div>
                             <div class="flex-1">
-                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Select Barcode Type</h3>
+                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Select Format & Upload Files</h3>
                                 <p class="text-slate-600 leading-relaxed">
-                                    Click on the barcode type tab (QR Code, EAN/UPC, Code 128, Code 39, or Data Matrix) at the top of the extension window.
+                                    Open the extension by clicking on the application icon. Choose your desired output format (PDF, JPG, PNG, or WEBP) and upload your HEIC or HEIF files by clicking "Select Files" or dragging and dropping them into the upload area.
                                 </p>
                             </div>
                         </div>
@@ -108,16 +108,16 @@
                                 <span class="text-lg font-bold text-slate-700">2</span>
                             </div>
                             <div class="flex-1">
-                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Enter Data</h3>
+                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Customize Settings (Optional)</h3>
                                 <p class="text-slate-600 leading-relaxed mb-2">
-                                    In the input panel, enter your data:
+                                    Adjust conversion settings:
                                 </p>
                                 <ul class="list-disc list-inside text-slate-600 space-y-1 ml-4">
-                                    <li><strong>Single barcode:</strong> Type one value and click "Generate"</li>
-                                    <li><strong>Bulk generation:</strong> Enter one value per line, then click "Generate All"</li>
+                                    <li><strong>For PDF:</strong> Set orientation (portrait/landscape), page size, fit mode, and margins</li>
+                                    <li><strong>For Images:</strong> Adjust quality settings (0.1 to 1.0) for optimal file size and quality balance</li>
                                 </ul>
                                 <p class="text-slate-600 leading-relaxed mt-2">
-                                    The extension validates each entry according to the selected barcode type format.
+                                    Settings are saved automatically and persist between sessions.
                                 </p>
                             </div>
                         </div>
@@ -129,19 +129,9 @@
                                 <span class="text-lg font-bold text-slate-700">3</span>
                             </div>
                             <div class="flex-1">
-                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Customize Settings</h3>
-                                <p class="text-slate-600 leading-relaxed mb-2">
-                                    Adjust settings in the right panel:
-                                </p>
-                                <ul class="list-disc list-inside text-slate-600 space-y-1 ml-4">
-                                    <li><strong>Format:</strong> PNG or SVG</li>
-                                    <li><strong>Size:</strong> Use presets or enter custom dimensions</li>
-                                    <li><strong>Colors:</strong> Set foreground and background colors</li>
-                                    <li><strong>Text:</strong> Configure font, size, alignment, and position</li>
-                                    <li><strong>Quality:</strong> Select DPI (72, 150, 300, 600)</li>
-                                </ul>
-                                <p class="text-slate-600 leading-relaxed mt-2">
-                                    Preview updates automatically as you change settings.
+                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Conversion Results</h3>
+                                <p class="text-slate-600 leading-relaxed">
+                                    After conversion, you'll see the processed files page with all your converted files ready for download.
                                 </p>
                             </div>
                         </div>
@@ -153,16 +143,16 @@
                                 <span class="text-lg font-bold text-slate-700">4</span>
                             </div>
                             <div class="flex-1">
-                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Download Barcodes</h3>
+                                <h3 class="text-xl font-semibold text-slate-900 mb-2">Download Files</h3>
                                 <p class="text-slate-600 leading-relaxed mb-2">
-                                    After generation, download your barcodes:
+                                    Download your converted files:
                                 </p>
                                 <ul class="list-disc list-inside text-slate-600 space-y-1 ml-4">
-                                    <li><strong>Individual:</strong> Click the download button next to each barcode</li>
-                                    <li><strong>Bulk:</strong> Click "Download ZIP" to get all barcodes in a ZIP archive</li>
+                                    <li><strong>Download ZIP:</strong> Get all files in a single ZIP archive</li>
+                                    <li><strong>Individual files:</strong> Click the download icon on each file card to download separately</li>
                                 </ul>
                                 <p class="text-slate-600 leading-relaxed mt-2">
-                                    Files are named automatically with your custom prefix (if set).
+                                    All processing happens locally in your browser - your files never leave your device.
                                 </p>
                             </div>
                         </div>
@@ -170,40 +160,24 @@
                 </div>
             </div>
 
-            <!-- Data Format Requirements -->
+            <!-- File Requirements -->
             <div class="mb-8">
                 <h2 class="text-3xl font-semibold text-slate-900 mb-6">
-                    Data Format Requirements
+                    File Requirements
                 </h2>
                 <div class="p-6 bg-blue-50 rounded-lg border border-blue-200">
                     <div class="space-y-3">
                         <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">QR Code / Data Matrix</h4>
-                            <p class="text-sm text-slate-600">Any text or URL (no length limit)</p>
+                            <h4 class="font-semibold text-slate-900 mb-1">Supported Input Formats</h4>
+                            <p class="text-sm text-slate-600">HEIC, HEIF, JPG, JPEG, PNG, WEBP</p>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">EAN-13</h4>
-                            <p class="text-sm text-slate-600">12 digits (checksum calculated automatically)</p>
+                            <h4 class="font-semibold text-slate-900 mb-1">File Size Limit</h4>
+                            <p class="text-sm text-slate-600">Maximum 100MB per file</p>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">UPC-A</h4>
-                            <p class="text-sm text-slate-600">11 digits (checksum calculated automatically)</p>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">EAN-8</h4>
-                            <p class="text-sm text-slate-600">7 digits (checksum calculated automatically)</p>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">UPC-E</h4>
-                            <p class="text-sm text-slate-600">6 digits (compressed UPC-A format)</p>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">Code 128</h4>
-                            <p class="text-sm text-slate-600">Full ASCII characters (letters, numbers, symbols)</p>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-slate-900 mb-1">Code 39</h4>
-                            <p class="text-sm text-slate-600">Alphanumeric characters (A-Z, 0-9, and some symbols)</p>
+                            <h4 class="font-semibold text-slate-900 mb-1">Batch Processing</h4>
+                            <p class="text-sm text-slate-600">Convert multiple files simultaneously. All files are processed locally in your browser.</p>
                         </div>
                     </div>
                 </div>
@@ -212,20 +186,23 @@
             <!-- Tips -->
             <div class="mb-8">
                 <h2 class="text-3xl font-semibold text-slate-900 mb-6">
-                    Tips
+                    Tips & Best Practices
                 </h2>
                 <div class="space-y-3">
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <p class="text-slate-600"><strong class="text-slate-900">Settings are saved automatically</strong> - Your preferences persist between sessions.</p>
+                        <p class="text-slate-600"><strong class="text-slate-900">100% Private & Offline</strong> - All conversion happens locally in your browser. Your files never leave your device.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <p class="text-slate-600"><strong class="text-slate-900">Invalid entries are highlighted</strong> - Check the results table for error messages.</p>
+                        <p class="text-slate-600"><strong class="text-slate-900">Use Fullscreen Mode for Batch</strong> - For processing many files, use the fullscreen mode for better organization and preview.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <p class="text-slate-600"><strong class="text-slate-900">Use bulk generation for efficiency</strong> - Process multiple barcodes at once.</p>
+                        <p class="text-slate-600"><strong class="text-slate-900">PDF Settings</strong> - Customize PDF orientation, page size, and margins for professional document output.</p>
                     </div>
                     <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
-                        <p class="text-slate-600"><strong class="text-slate-900">Customize themes</strong> - Choose from 10 header and 15 accent color presets.</p>
+                        <p class="text-slate-600"><strong class="text-slate-900">Quality Settings</strong> - Adjust image quality (0.1-1.0) to balance file size and quality. Higher values = better quality but larger files.</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-lg border border-slate-200">
+                        <p class="text-slate-600"><strong class="text-slate-900">No Sign-up Required</strong> - Just install and use. No account creation, no cloud uploads, no tracking.</p>
                     </div>
                 </div>
             </div>
