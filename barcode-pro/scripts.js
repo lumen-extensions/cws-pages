@@ -19,7 +19,7 @@
 
     // Replace extension name in title tag
     if (document.title) {
-      document.title = document.title.replace(/N-M to Ft-Lb Converter|nm to ft-lb Converter|Barcode Pro|HEIC Converter/gi, vars.name);
+      document.title = document.title.replace(/N-M to Ft-Lb Converter|nm to ft-lb Converter|Barcode Pro/gi, vars.name);
     }
 
     // Replace extension version
